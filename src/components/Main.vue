@@ -59,11 +59,11 @@ function setVideosToStopAtLastFrame() {
             <!-- <h1 style="margin-bottom: 20px;">摘要</h1> -->
             <img src="/public/framework.png" alt="Logo" style="width:100%;margin-bottom:12px;border-radius:10px;" />
             <p style="margin-bottom: 16px;">
-              This paper presents a novel end-to-end trajectory planner that integrates LiDAR-based perception and trajectory optimization into a unified framework, enabling efficient navigation in dynamic environments without relying on semantic detection or kinematic modeling.
-              Learning-based dynamic collision avoidance methods often depend on reinforcement learning, which poses challenges in training efficiency, model transferability, and deployment safety. 
-              To address these limitations, this work introduces a lightweight map representation for temporally continuous dynamic obstacles, facilitating unsupervised network training with physically simulated data. 
-              Additionally, a repulsion-based adjustment method grounded in motion primitives allows adaptive trajectory planning in highly crowded scenarios with no feasible trajectory, striking a balance between target achievement and motion safety.
-              Extensive simulations and real-world experiments validate that the proposed framework achieves millisecond-level planning latency while ensuring high safety, trajectory smoothness, and flight efficiency.
+This paper presents a novel end-to-end trajectory planning framework that integrates LiDAR-based perception with trajectory optimization, enabling safe and efficient navigation in dynamic environments without relying on semantic detection or explicit kinematic modeling.
+Learning-based dynamic collision avoidance methods often depend on reinforcement learning, which introduces challenges related to training efficiency, model generalization, and deployment safety. 
+To address these limitations, we propose a lightweight map representation for temporally continuous dynamic obstacles, facilitating unsupervised network training with physically simulated data. 
+Additionally, a repulsion-based adjustment method built upon motion primitives allows adaptive trajectory planning in highly crowded scenarios where no feasible trajectory exists, balancing target-reaching objectives with motion safety.
+Extensive simulations and real-world experiments demonstrate that the proposed framework achieves millisecond-level planning latency while ensuring high safety, trajectory smoothness, and flight efficiency.
             </p>
         </el-col>
     </el-row>
